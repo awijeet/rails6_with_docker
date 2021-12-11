@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple rails6 new project build on ruby3.0.0
 
-Things you may want to cover:
+Please first install docker for you respective OS
 
-* Ruby version
+Then clone the repository
 
-* System dependencies
+git clone git@github.com:awijeet/rails6_with_docker.git
+cd rails6_with_docker
 
-* Configuration
+and then 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# To Build the container
+ docker-compose build web
+# To run the container bash
+ docker-compose run web bash
+ 
+# To run the docker-composer
+ docker-compose up web
